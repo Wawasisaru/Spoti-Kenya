@@ -1,0 +1,135 @@
+body{
+    background: linear-gradient(to bottom, #e9d2d2, #a4aacf);
+    padding: 0%;
+    margin: 0%;
+    /* background-image: url(images/bbb.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+
+}
+.event{
+   font-size: 20px;
+   text-align: center;
+   font-family:atomic age ;
+   color: white;
+   
+   /* -webkit-background-clip: text;  */
+    /* -webkit-text-fill-color: transparent;   */ 
+   /* -moz-background-clip: text; */
+   text-shadow: 5px 10px 15px rgba(14,14,14,0,0.5, green, blue, alpha); 
+   animation: fedeinAnimation ease 3%;
+   animation-iteration-count: 1;
+   animation-fill-mode: forwards;
+
+}
+@keyframes fedeinAnimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+
+.dates {
+    
+    padding: 20px;
+    margin-left: 10%;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.dates button {
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color:whitesmoke;
+    background: #6c3e86cb;
+    transition: 0.5s ease;
+    margin-top: 60px;
+   
+}
+.dates button:hover ,.button:focus ,.button:active{
+    color: #FFFFFF;
+    background: #869ac0;
+    border: 1px solid #008CFF;
+    text-shadow: 0 0 5px #FFFFFF,
+                0 0 10px #FFFFFF,
+                0 0 20px #FFFFFF;
+    box-shadow: 0 0 5px #8C00FF,
+                0 0 20px #008CFF,
+                0 0 50px #008CFF,
+                0 0 100px #008CFF 
+}
+
+.dates span {
+    
+    margin-top: 10px;
+    font-size: 16px;
+    background: transparent;
+    backdrop-filter: blur(20px);
+   
+  
+}
+.btn{
+    padding: 10px 40px;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color:whitesmoke;
+    background: #712e9bcb;
+    transition: 0.5s ease;
+    margin-top: 60px;
+    margin-left: 40%;
+    
+  
+}
+.btn:hover,.btn:focus,.btn:active{
+    color: #FFFFFF;
+    background: #0044C4;
+    border: 1px solid #008CFF;
+    text-shadow: 0 0 5px #FFFFFF,
+                0 0 10px #FFFFFF,
+                0 0 20px #FFFFFF;
+    box-shadow: 0 0 5px #8C00FF,
+                0 0 20px #008CFF,
+                0 0 50px #008CFF,
+                0 0 100px #008CFF
+
+    
+   
+}
+@media (max-width: 768px) {
+    .dates {
+        margin-left: 5%;
+    }
+
+    .btn {
+        margin-left: 20%;
+    }
+}
+
+@media (max-width: 480px) {
+    .event {
+        font-size: 16px;
+    }
+
+    .dates {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+
+    .btn {
+        margin-left: 10%;
+    }
+}
+
+
+
+
+
+
+
+
