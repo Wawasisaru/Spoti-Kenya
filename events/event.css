@@ -7,11 +7,15 @@ body{
     background-size: cover; */
 
 }
+img{
+    background-size: cover;
+    height: 20vh;
+}
 .event{
    font-size: 20px;
    text-align: center;
    font-family:atomic age ;
-   color: white;
+   color: rgb(17, 14, 14);
    
    /* -webkit-background-clip: text;  */
     /* -webkit-text-fill-color: transparent;   */ 
