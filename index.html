@@ -8,11 +8,31 @@
     <link rel="stylesheet" href="./events/event.css">
     <link rel="stylesheet" href="/trendings/trends.css">
     <link rel="stylesheet" href="/gallery/music.css">
+    <link rel="stylesheet" href="./Join/join.css">
     <title>Timbre</title>
   </head>
   <body>
     <section id="home-page">
       <div class="home-page">
+        <div class="nav-barr">
+          <div class="nav">
+              <input type="checkbox" id="nav-check">
+              <div class="nav-btn">
+                <label for="nav-check">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </label>
+              </div>
+              <div class="nav-links">
+                  <a href="#">Home</a>
+                  <a href="#Trending">Trending</a>
+                  <a href="#Join">Join</a>
+                  <a href="#Events">Events</a>
+                  <a href="">SignUp</a>
+              </div>
+            </div>
+          </div>
         <div class="main-container">
           <div class="flip-card-inner">
             <div class="flip-card-front">
@@ -52,7 +72,7 @@
     <br>
     <br>
     <br>
-    <section id="Trendings">
+    <section id="Trending">
       <h1 id="trends">Trendings</h1>
       <div class="main">
         <div class="currentplaying">
@@ -94,6 +114,8 @@
     <br>
     <br>
     <section id="Events">
+      <br>
+      <br>
       <div class="event">
         <h1>....NEWS AND EVENTS ....</h1>
       </div>
@@ -114,6 +136,59 @@
       <button class="btn">More Event</button>
     </section>
     <section id="Gallery">
+     </section>
+     <br>
+     <br>
+     <br>
+     <section id="Join">
+      <div id="contact-body">
+      <div class ="contact-form">
+        <div class="formcontainer">
+            <label for="email">Full Names</label>
+            <input
+              type="text"
+              placeholder="Marlyne Lyle"
+              name="last name"
+              required
+            />
+          </div>
+          <div class="formcontainer">
+            <label for="email">Email</label>
+            <input type="text" placeholder="marilynlyle@gmail.com" name="email" required />
+          </div>
+          <div class="formcontainer">
+            <label for="email">Phone Number</label>
+            <input
+              type="text"
+              placeholder="+(code) 723*****"
+              name="phone number"
+              required
+            />
+          </div>
+          <div class="formcontainer">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+        <option value="australia">Select</option>
+        <option value="canada">Kenya</option>
+        <option value="usa">USA</option>
+        <option value="canada">Canada</option>
+        <option value="usa">Nigeria</option>
+        <option value="canada">Tanzania</option>
+        <option value="usa">Uganda</option>
+        <option value="canada">Rwanda</option>
+        <option value="usa">Califonia</option>
+      </select>
+      </div>
+      <div class="formcontainer">
+      <label for="subject">Message</label>
+      <textarea id="subject" name="subject" placeholder="I love your music.." style="height:100px"></textarea>
+      </div>
+      <br>
+      <div class="formcontainer">
+      <input type="submit" id="submit" value="Submit">
+      </div>
+    </div>
+    </div>
      </section>
   </body>
 </html>
