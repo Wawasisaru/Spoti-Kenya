@@ -2,12 +2,23 @@
 body{
     padding: 0%;
     margin: 0%;
-    background: linear-gradient(to bottom, #e9b4b4,#b07dda);
+    /* background: linear-gradient(to bottom, #e9b4b4,#b07dda); */
 }
 .content{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     margin-left: 5%;
+}
+.gallery{
+  background-color: #28626a;
+  background-image: linear-gradient(90deg, #28626a 0%, #c626c7 100%);
+}
+h2{
+  color: aliceblue;
+  font-size: 34px;
+}
+p{
+  font-size: 18px;
 }
 .heading{
     text-align: center;
