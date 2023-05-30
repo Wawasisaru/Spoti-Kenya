@@ -34,7 +34,7 @@ html{
 }
 /* -----------------------------------------------------------TEXT SECTION ON THE HOMEPAGE ------------------------------------------------------------------------------*/
 #title-text{
-    font-size: 90px;
+    font-size: 80px;
     font-weight: bold;
     text-align: center;
     padding-top: 120px;
@@ -154,6 +154,7 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
+    align-items: center;
   }
   
   /* ---------------min-btnone-------------- */
@@ -168,6 +169,7 @@ html{
         box-shadow: transparent;
         transition: 0.5s ease;
         margin-top: 60px;
+        text-decoration: none;
 }
 /* -------------------min-btntwo-------------------- */
 #min-btntwo{
@@ -179,6 +181,7 @@ html{
     background: #6c3e86cb;
     transition: 0.5s ease;
     margin-top: 60px;
+    text-decoration: none;
 }
 /* --------------min-btnthree------------------------------------------- */
 #min-btnthree{
@@ -190,6 +193,7 @@ html{
     background: #6c3e86cb;
     transition: 0.5s ease;
     margin-top: 60px;
+    text-decoration: none;
 }
 /* --------------------------------nav bar------------------------------------------- */
 

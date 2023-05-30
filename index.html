@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="/trendings/trends.css">
     <link rel="stylesheet" href="/gallery/music.css">
     <link rel="stylesheet" href="./Join/join.css">
+    <link rel="stylesheet" href="./Choice/music.css">
     <title>Timbre</title>
   </head>
   <body>
@@ -29,7 +30,7 @@
                   <a href="#Trending">Trending</a>
                   <a href="#Join">Join</a>
                   <a href="#Events">Events</a>
-                  <a href="">SignUp</a>
+                  <a href="#Gallery">Gallery</a>
               </div>
             </div>
           </div>
@@ -47,7 +48,7 @@
             </div>
           </div>
           <div class="text-homepage">
-            <h1 id="title-text">Welcome to Aficionado</h1>
+            <h1 id="title-text">Welcome to Spoti Kenya</h1>
             <p id="title-paragraph">
               Where the music speaks louder than the words
             </p>
@@ -58,13 +59,13 @@
         <h1 id="choice">Music Choice</h1>
         <div class="min-paragraph">
           <div id="btnone">
-            <button id="min-btnone">HipHop</button>
+            <a href="#hip" id="min-btnone">Hip-Hop</a>
           </div>
           <div id="btntwo">
-            <button id="min-btntwo">RnB</button>
+            <a href="#rnb" id="min-btntwo">RnB</a>
           </div>
           <div id="btnthree">
-            <button id="min-btnthree">AFRO-BEATS</button>
+            <a href="#beats" id="min-btnthree">AFRO-BEATS</a>
           </div>
         </div>
       </div>
@@ -113,7 +114,103 @@
     <br>
     <br>
     <br>
-    <section id="Events">
+    <section id="Gallery">
+      <div class="gallery">
+        <div class="heading">
+        <h2>CHOOSE YOUR BEST MUSIC</h2>
+        <br>
+        <br>
+        <h2 id="hip">Hippop Music</h2>
+    </div>
+        <div class="content">
+            <div>
+                <img src="/Choice/images/sheil-removebg-preview.png" alt="">
+                <p>Nicki Minaj</p>
+                <br>
+                <p>starships</p>
+                <button id="buttonone">Read more</button>
+
+            </div>
+
+            <div>
+                <img src="/Choice/images/www-removebg-preview.png">
+                <p>Wizkid</p>
+                <br>
+                <p>Essence</p>
+                <button id="buttontwo">Read more</button>
+            </div>  
+            <div>
+                <img src="/Choice/images/dd-removebg-preview.png" alt="">
+                <p>Drake</p>
+                <br>
+                <p>God's plan</p>
+                <button id="buttonthree">Read more</button>
+            </div>
+            </div>
+            <div class="heading">
+            <h2 id="rnb">R&B HITS</h2>
+            <br>
+            <br>
+            <p>Music is life</p>
+           </div>
+           <div class="content">
+            <div>
+                <img src="/Choice/images/dd-removebg-preview.png" alt="">
+                <p>Rihanna</p>
+                <br>
+                <p>We found love</p>
+                <button id="buttonfour">Read more</button>
+            </div>
+            <div>
+                <img src="/Choice/images/brr-removebg-preview.png" alt="">
+                <p>Chris Brown</p>
+                <br>
+                <p>Under the influence</p>
+                <button id="buttonfive">Read more</button>
+            </div>
+            <div>
+                <img src="/Choice/images/diana-removebg-preview.png" alt="">
+                <p>Diana Ross</p>
+                <br>
+                <p>Upside down</p>
+                <button id="buttonsix">Read more</button>
+            </div>
+            </div>
+            <div class="heading">
+            <h2 id="beats">AFRO-BEATS HITS</h2>
+            <p>Music is life</p>
+           </div>
+           <div class="content">
+            <div>
+                <img src="/Choice/images/yemi-removebg-preview.png" alt="">
+                <p>Yemi Alade</p>
+                <br>
+                <p>Oh My Gosh</p>
+                <button id="buttonseven">Read more</button>
+            </div>
+            <div>
+                <img src="/Choice/images/burna-removebg-preview.png" alt="">
+                <p>Burna Boy</p>
+                <br>
+                <p>Common Person</p>
+                <button id="buttoneight">Read more</button>
+            </div>
+            <div>
+                <img src="/Choice/images/eazi-removebg-preview.png" alt="">
+                <p>Mr Eazi</p>
+                <br>
+                <p>Miss You Bad</p>
+                <button id="buttonnine">Read more</button>
+            </div>
+
+
+        </div>
+    </div> 
+     </section>
+     <br>
+     <br>
+     <br>
+     <section id="Events">
       <br>
       <br>
       <div class="event">
@@ -135,12 +232,11 @@
       </div>
       <button class="btn">More Event</button>
     </section>
-    <section id="Gallery">
-     </section>
-     <br>
-     <br>
-     <br>
+    <br>
+    <br>
+    <br>
      <section id="Join">
+      <h2>Join Us</h2>
       <div id="contact-body">
       <div class ="contact-form">
         <div class="formcontainer">
@@ -190,5 +286,6 @@
     </div>
     </div>
      </section>
+     <script src="/Choice/music.js"></script>
   </body>
 </html>
