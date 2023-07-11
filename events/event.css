@@ -7,9 +7,9 @@ body{
     background-size: cover; */
 
 }
-img{
+#image-events{
     background-size: cover;
-    height: 20vh;
+    height: 200vh;
 }
 .event{
    font-size: 20px;

@@ -17,9 +17,10 @@ html{
 } 
 .main-container{
     display: flex;
-    height: 100vh;
+    height: 80vh;
     background-color: #28626a;
-    background-image: linear-gradient(90deg, #28626a 0%, #c626c7 100%);
+    background: linear-gradient(to bottom, #da9595, #a4aacf);
+    /* background-image: linear-gradient(90deg, #28626a 0%, #c626c7 100%); */
 
      /* background-color: #4158D0; */
     /* background-image: linear-gradient(43deg, #4158D0 29%, #ce4bc5 71%, #fdd78f 100%); */
@@ -30,6 +31,7 @@ html{
     width: 100vh;
     display: flex;
     flex-direction: column;
+    margin-right: 6.5%;
    
 }
 /* -----------------------------------------------------------TEXT SECTION ON THE HOMEPAGE ------------------------------------------------------------------------------*/
@@ -37,11 +39,12 @@ html{
     font-size: 80px;
     font-weight: bold;
     text-align: center;
-    padding-top: 120px;
+    padding-top: 150px;
     color:#eaeaeb;
+  
 }
 #title-paragraph{
-    font-size: 28px;
+    font-size: 40px;
     padding-top: 50px;
     text-align: center;
     color:#fefdff
@@ -88,36 +91,37 @@ html{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 100%;
-    height: 100%;
+    width: 37rem;
+    height: 110%;
     -webkit-backface-visibility: hidden;
     backface-visibility: hidden;
   }
   
   .flip-card-front {
   
-    color: coral;
+    color: rgb(214, 139, 111);
   }
   
   .flip-card-back {
    
-    color: white;
+    color: rgb(167, 76, 76);
     transform: rotateY(180deg);
   }
   /* -------------------------------HOME BUTTON----------------------------------- */
   #btn {
-    padding: 10px 20px;
+    padding: 30px 40px;
     text-transform: uppercase;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 37px;
     font-weight: 500;
     color: #ffffff;
     text-shadow: none;
     background: #02022293;
-    /* box-shadow: transparent; */
-    /* border: 1px solid #ffffff; */
+    box-shadow: transparent;
+    border: 1px solid #ffffff;
     transition: 0.5s ease;
     /* user-select: none; */
+    margin-right: 30%;
     margin-top: 60px;
     text-decoration: none;
   }
@@ -130,8 +134,8 @@ html{
                 0 0 10px #ffffff,
                 0 0 20px #ffffff;
     box-shadow: 0 0 5px #8c00ff,
-                0 0 20px #031320,
-                0 0 50px #011322,
+                0 0 20px #83a5c2,
+                0 0 50px #667581,
                 0 0 100px #011e35;
   }
   #btn{
@@ -140,18 +144,18 @@ html{
   /* ---------------------------music-choice-------------------------- */
   #choice{
     text-align: center;
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #212122 29%, #2c2b2c 71%, #3d3c3a 100%);
+    background-color: #bfc5e6;
+    background-image: linear-gradient(43deg, #8989ec 29%, #a79fa7 71%, #be830c 100%);
     ;
     color:whitesmoke;
-    font-size: 40px;
+    font-size: 80px;
   }
   /* --------------------------------MIN-PARAGRAPH--------------------------------------------------------- */
   .min-paragraph{
     height: 30vh;
     display: flex;
     justify-content:space-evenly;
-     background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1685357121/Hotel-booking/danny-howe-bn-D2bCvpik-unsplash_v29qwc.jpg");
+     /* background-image: url("https://res.cloudinary.com/djz4lxe3f/image/upload/v1685357121/Hotel-booking/danny-howe-bn-D2bCvpik-unsplash_v29qwc.jpg"); */
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -160,9 +164,9 @@ html{
   
   /* ---------------min-btnone-------------- */
   #min-btnone{
-        padding: 10px 20px;
+        padding: 40px 50px;
         border-radius: 8px;
-        font-size: 17px;
+        font-size: 27px;
         font-weight: 500;
         color:whitesmoke;
         text-shadow: none;
@@ -174,9 +178,9 @@ html{
 }
 /* -------------------min-btntwo-------------------- */
 #min-btntwo{
-    padding: 10px 40px;
+    padding: 40px 60px;
     border-radius: 8px;
-    font-size: 17px;
+    font-size: 27px;
     font-weight: 500;
     color:whitesmoke;
     background: #6c3e86cb;
@@ -186,7 +190,7 @@ html{
 }
 /* --------------min-btnthree------------------------------------------- */
 #min-btnthree{
-    padding: 10px 15px;
+    padding: 40px 60px;
     border-radius: 8px;
     font-size: 16px;
     font-weight: 500;
@@ -205,16 +209,16 @@ html{
 .nav-barr {
   position: fixed;
   width: 100%;
-  /* height: 40%; */
+  height: 40%;
 }
 .nav img {
-  width: 5em;
+  width: 80em;
   margin-left: 2em;
 }
 .nav {
-  height: 50px;
+  height: 90px;
   width: 100%;
-  background: #4f2958;
+  background: #c5a3d1;
   position: relative;
   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
@@ -224,7 +228,7 @@ html{
 }
 .nav>.nav-header>.nav-title {
   display: inline-block;
-  font-size: 22px;
+  font-size: 28px;
   color: whitesmoke;
   padding: 10px 10px 10px 10px;
 }
@@ -239,7 +243,8 @@ html{
 }
 .nav>.nav-links>a {
   display: inline-block;
-  padding: 13px 10px 13px 10px;
+
+  padding: 30px 30px 30px 250px;
   text-decoration: none;
   color: rgb(10, 10, 10);
 }

@@ -11,14 +11,19 @@ body{
 }
 .gallery{
   background-color: #28626a;
-  background-image: linear-gradient(90deg, #28626a 0%, #c626c7 100%);
+  background-image: linear-gradient(90deg, #04090a 0%, #0a010a 100%);
+  border-radius:4%;
+  height: 170vh;
+  padding: 20px;
+  margin-top: 90px;
 }
 h2{
   color: aliceblue;
-  font-size: 34px;
+  font-size: 54px;
 }
 p{
-  font-size: 18px;
+  font-size: 20px;
+  color: white;
 }
 .heading{
     text-align: center;
@@ -27,17 +32,18 @@ p{
     margin-left: 32%;
 }
 .content img{
-    width: 80%;
+    width: 30%;
     height: 60%;
     border: solid black;
     border-color:rgb(214, 107, 143);
     border-radius: 5%;
+    
   
    
 }
 #buttonone{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -48,7 +54,7 @@ p{
 }
 #buttontwo{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -59,7 +65,7 @@ p{
 }
 #buttonthree{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -70,7 +76,7 @@ p{
 }
 #buttonfour{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -81,7 +87,7 @@ p{
 }
 #buttonfive{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -92,7 +98,7 @@ p{
 }
 #buttonsix{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -103,7 +109,7 @@ p{
 }
 #buttonseven{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -114,7 +120,7 @@ p{
 }
 #buttoneight{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
@@ -125,7 +131,7 @@ p{
 }
 #buttonnine{
     margin-left: 30%;
-    padding: 8px ;
+    padding: 15px ;
     border-radius: 8px;
     font-size: 17px;
     font-weight: 500;
